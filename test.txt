@@ -1,0 +1,33 @@
+# program hello
+
+$ mettre un bloc d'instruction entre $ $ pour le commenter $
+def main{
+    var g : int = 7 + 12;
+    var q : real = 3.6;
+
+    q = (12 + 2 * 23) % 7;
+
+    var b : bool = false;
+    b = false && (5 > 3 + q); 
+
+    array qA{int}[5+6];
+
+    var o : bool;
+    o = 7 <= 6;
+
+
+    for(g = 0; g < 10; 3){
+        g = g + 2;
+    }
+
+
+    if(q < 3) then {
+        o = !o;
+    } else {
+        o = true;
+    }
+
+
+};
+# end
+
